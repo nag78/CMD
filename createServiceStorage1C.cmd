@@ -1,5 +1,5 @@
-REM Создание нескольких служб, разных версий хранилища конфигураций 1С.
+REM я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜скоя┐╜ькия┐╜ я┐╜ужб, разя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜сий я┐╜раня┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜фигя┐╜я┐╜ций 1я┐╜.
 
-sc create "1C_Storage_8.3.9.2233"  binPath= """"C:\Program Files (x86)\1cv8\8.3.9.2233\bin\crserver.exe""" -srvc -port 1542 -range 1560:1591 -d """D:\storage\""""" start= auto displayname= "Сервер хранилища 1С (БГУ_ЗКБУ_СТИП)"
-REM sc create "1C_Storage_8.3.11.2867"  binPath= "C:\Program Files (x86)\1cv8\8.3.11.2867\bin\crserver.exe" -srvc -port 1642 -range 1660:1691 -d D:\storage\" start= auto displayname= "Сервер хранилища 1С (8.3.11.2867)"
-sc create "1C_Storage_8.3.8.1933"  binPath= """"C:\Program Files (x86)\1cv8\8.3.8.1933\bin\crserver.exe""" -srvc -port 1742 -range 1760:1791 -d """D:\storage\"""" start= auto displayname= "Сервер хранилища 1С (АСУПК_ИАСУ)"
+sc create "1C_Storage_8.3.9.2233"  binPath=""""C:\Program Files (x86)\1cv8\8.3.9.2233\bin\crserver.exe""" -srvc -port 1542 -range 1560:1591 -d """D:\storage\"""" start=auto displayname= "я┐╜я┐╜рвея┐╜ я┐╜раня┐╜я┐╜я┐╜я┐╜ 1я┐╜ (я┐╜я┐╜я┐╜_я┐╜я┐╜я┐╜я┐╜_я┐╜я┐╜я┐╜я┐╜)"
+REM sc create "1C_Storage_8.3.11.2867"  binPath= "C:\Program Files (x86)\1cv8\8.3.11.2867\bin\crserver.exe" -srvc -port 1642 -range 1660:1691 -d D:\storage\" start= auto displayname= "я┐╜я┐╜рвея┐╜ я┐╜раня┐╜я┐╜я┐╜я┐╜ 1я┐╜ (8.3.11.2867)"
+sc create "1C_Storage_8.3.8.1933"  binPath=""""C:\Program Files (x86)\1cv8\8.3.8.1933\bin\crserver.exe""" -srvc -port 1742 -range 1760:1791 -d """D:\storage\"""" start=auto displayname= "я┐╜я┐╜рвея┐╜ я┐╜раня┐╜я┐╜я┐╜я┐╜ 1я┐╜ (я┐╜я┐╜я┐╜я┐╜я┐╜_я┐╜я┐╜я┐╜я┐╜)"
