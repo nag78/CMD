@@ -2,10 +2,10 @@
 $pathFull_1 = $Path_1 + ' -srvc -port 1542 -range 1560:1591 -d D:\storage' 
 
 $Path_2 = 'C:\Program Files (x86)\1cv8\8.3.8.1933\bin\crserver.exe'
-$pathFull_2 = $Path_1 + ' -srvc -port 1642 -range 1660:1691 -d D:\storage'
+$pathFull_2 = $Path_2 + ' -srvc -port 1642 -range 1660:1691 -d D:\storage'
 
 $Path_3 = 'C:\Program Files (x86)\1cv8\8.3.11.2867\bin\crserver.exe'
-$pathFull_3 = $Path_1 + ' -srvc -port 1742 -range 1760:1791 -d D:\storage'
+$pathFull_3 = $Path_3 + ' -srvc -port 1742 -range 1760:1791 -d D:\storage'
 
 
 
