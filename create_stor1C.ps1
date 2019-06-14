@@ -7,7 +7,7 @@ $pathFull_2 = $Path_2 + ' -srvc -port 1642 -range 1660:1691 -d E:\storage'
 $Path_3 = 'C:\Program Files (x86)\1cv8\8.3.11.2867\bin\crserver.exe'
 $pathFull_3 = $Path_3 + ' -srvc -port 1742 -range 1760:1791 -d E:\storage'
 
-$Path_4 = 'C:\Program Files (x86)\1cv8\8.3.10.2561\bin\crserver.exe'
+$Path_4 = 'C:\Program Files\1cv8\8.3.10.2561\bin\crserver.exe'
 $pathFull_4 = $Path_4 + ' -srvc -port 1842 -range 1860:1891 -d E:\storage'
 
 
