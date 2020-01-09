@@ -29,4 +29,4 @@ rem ***** Запускаем на исполнение ****
 ftp -v -n -s:%file_transport%
 
 rem ****** Удаляем файл с командами ftp******
-del %file_transport%
+rem del %file_transport%
