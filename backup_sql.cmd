@@ -1,0 +1,1 @@
+powershell.exe -noprofile -executionpolicy bypass -file c:\adm\zip_backup.ps1
