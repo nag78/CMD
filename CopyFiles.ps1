@@ -10,11 +10,9 @@ New-SmbMapping -UserName $username -Password $password `
 $file = Get-ChildItem -Path $path | Sort-Object LastWriteTime | Select-Object -Last 1
 $fullpath = $path + $file.Name
 #Удаление преведущего файла в месте назначения
-Remove-Item $target 
+Remove-Item $target
 #Копирование файла и отключение сетевого диска
-if (Copy-Item -Path $fullpath -Destination $target -Verbose) {
-    Net Use J: /delete
-}
+Copy-Item -Path $fullpath -Destination $target -Verbose -Force | Net Use J: /delete
 
 
 
