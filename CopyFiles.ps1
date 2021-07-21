@@ -5,7 +5,7 @@ $path = 'E:\change\'
 $target = 'J:\'
 
 New-SmbMapping -UserName $username -Password $password `
-    -LocalPath 'J:' -RemotePath '\\172.16.0.216\change'
+    -LocalPath 'J:' -RemotePath '\\172.16.0.216\change' 
 
 $file = Get-ChildItem -Path $path | Sort-Object LastWriteTime | Select-Object -Last 1
 $fullpath = $path + $file.Name
