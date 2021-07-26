@@ -1,5 +1,5 @@
-$Folder1Path = 'H:\actual_backup'
-$Folder2Path = 'H:\change_backup'
+$Folder1Path = 'C:\test1'
+$Folder2Path = 'C:\test2'
 $folder1Files = Get-ChildItem -Recurse -path $Folder1Path
 $folder2Files = Get-ChildItem -Recurse -path $Folder2Path
 $file_Diffs = Compare-Object -ReferenceObject $folder1Files -DifferenceObject $folder2Files
