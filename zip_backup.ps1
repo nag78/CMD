@@ -1,5 +1,5 @@
-$DirSource = 'C:\SQL'
-$DirDestination = 'D:\Archive'
+$DirSource = 'H:\Backups\month'
+$DirDestination = '\\172.16.226.17\store\sql\'
 
 $Date = Get-Date -f {yyyyMMdd}
 
