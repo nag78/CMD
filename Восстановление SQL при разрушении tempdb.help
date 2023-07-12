@@ -1,0 +1,21 @@
+--Запуск минимального SQL
+sqlservr.exe /f /c
+
+--Вход в командную строку SQL
+SQLCMD –S localhost –E
+
+--Перенос tempdb в новое место
+USE MASTER
+GO
+ALTER DATABASE TempDB MODIFY FILE (NAME = tempdev, FILENAME = 'E:\TempDB\Tempdb.mdf')
+GO
+ALTER DATABASE TempDB MODIFY FILE (NAME = templog, FILENAME = 'E:\TempDB\templog.ldf')
+GO
+
+--Выход из SQLCMD
+Quit
+
+--Остановка SQLServer
+Закрыть окно
+
+--Запуск службы SQLServer
